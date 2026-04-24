@@ -1,0 +1,478 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.wheretostudy:backend >----------------------
+[INFO] Building WHERE TO STUDY Backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ backend ---
+[INFO] Deleting C:\Users\Behzat\Desktop\software\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ backend ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 25 source files with javac [debug parameters release 21] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[26,13] cannot find symbol
+  symbol:   variable log
+  location: class com.wheretostudy.backend.config.DataSeeder
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[30,9] cannot find symbol
+  symbol:   variable log
+  location: class com.wheretostudy.backend.config.DataSeeder
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[35,49] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.User
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[43,50] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.User
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[55,46] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[64,41] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[78,46] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[87,41] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[101,46] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[110,41] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[124,46] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[133,41] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[147,46] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[156,41] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[169,37] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[177,37] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[185,37] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[194,37] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[203,37] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[212,37] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[220,37] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[229,9] cannot find symbol
+  symbol:   variable log
+  location: class com.wheretostudy.backend.config.DataSeeder
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[46,36] cannot find symbol
+  symbol:   method getReviews()
+  location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[48,45] invalid method reference
+  cannot find symbol
+    symbol:   method getStarRating(T)
+    location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[51,23] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.dto.CafeDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[52,25] cannot find symbol
+  symbol:   method getId()
+  location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[53,27] cannot find symbol
+  symbol:   method getName()
+  location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[54,31] cannot find symbol
+  symbol:   method getLatitude()
+  location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[55,32] cannot find symbol
+  symbol:   method getLongitude()
+  location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[56,30] cannot find symbol
+  symbol:   method getAddress()
+  location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[57,34] cannot find symbol
+  symbol:   method getDescription()
+  location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[58,45] cannot find symbol
+  symbol:   method getFacility()
+  location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[65,36] cannot find symbol
+  symbol:   method getReviews()
+  location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[67,45] invalid method reference
+  cannot find symbol
+    symbol:   method getStarRating(T)
+    location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[74,29] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.dto.CafeDetailDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[75,25] cannot find symbol
+  symbol:   method getId()
+  location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[76,27] cannot find symbol
+  symbol:   method getName()
+  location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[77,31] cannot find symbol
+  symbol:   method getLatitude()
+  location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[78,32] cannot find symbol
+  symbol:   method getLongitude()
+  location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[79,30] cannot find symbol
+  symbol:   method getAddress()
+  location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[80,34] cannot find symbol
+  symbol:   method getDescription()
+  location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[81,45] cannot find symbol
+  symbol:   method getFacility()
+  location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[91,27] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.dto.FacilityDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[92,38] cannot find symbol
+  symbol:   method getWifiQuality()
+  location: variable facility of type com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[93,39] cannot find symbol
+  symbol:   method getPowerOutlets()
+  location: variable facility of type com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[94,36] cannot find symbol
+  symbol:   method getQuietArea()
+  location: variable facility of type com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[95,37] cannot find symbol
+  symbol:   method getTableSpace()
+  location: variable facility of type com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[96,40] cannot find symbol
+  symbol:   method getGroupFriendly()
+  location: variable facility of type com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[97,40] cannot find symbol
+  symbol:   method getVoiceMeetings()
+  location: variable facility of type com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[102,25] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.dto.ReviewDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[103,27] cannot find symbol
+  symbol:   method getId()
+  location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[104,31] cannot find symbol
+  symbol:   method getCafe()
+  location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[105,33] cannot find symbol
+  symbol:   method getUser()
+  location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[106,35] cannot find symbol
+  symbol:   method getStarRating()
+  location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[107,32] cannot find symbol
+  symbol:   method getComment()
+  location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[108,33] cannot find symbol
+  symbol:   method getPhotoUrl()
+  location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[109,34] cannot find symbol
+  symbol:   method getCreatedAt()
+  location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[34,48] cannot find symbol
+  symbol:   method getUserId()
+  location: variable dto of type com.wheretostudy.backend.dto.CreateReviewDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[35,89] cannot find symbol
+  symbol:   method getUserId()
+  location: variable dto of type com.wheretostudy.backend.dto.CreateReviewDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[36,48] cannot find symbol
+  symbol:   method getCafeId()
+  location: variable dto of type com.wheretostudy.backend.dto.CreateReviewDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[37,89] cannot find symbol
+  symbol:   method getCafeId()
+  location: variable dto of type com.wheretostudy.backend.dto.CreateReviewDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[39,31] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[42,32] cannot find symbol
+  symbol:   method getStarRating()
+  location: variable dto of type com.wheretostudy.backend.dto.CreateReviewDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[43,29] cannot find symbol
+  symbol:   method getComment()
+  location: variable dto of type com.wheretostudy.backend.dto.CreateReviewDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[44,30] cannot find symbol
+  symbol:   method getPhotoUrl()
+  location: variable dto of type com.wheretostudy.backend.dto.CreateReviewDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[52,25] cannot find symbol
+  symbol:   method builder()
+  location: class com.wheretostudy.backend.dto.ReviewDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[53,27] cannot find symbol
+  symbol:   method getId()
+  location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[54,31] cannot find symbol
+  symbol:   method getCafe()
+  location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[55,33] cannot find symbol
+  symbol:   method getUser()
+  location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[56,35] cannot find symbol
+  symbol:   method getStarRating()
+  location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[57,32] cannot find symbol
+  symbol:   method getComment()
+  location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[58,33] cannot find symbol
+  symbol:   method getPhotoUrl()
+  location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[59,34] cannot find symbol
+  symbol:   method getCreatedAt()
+  location: variable review of type com.wheretostudy.backend.model.Review
+[INFO] 73 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.271 s
+[INFO] Finished at: 2026-03-05T00:24:33+03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[26,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.wheretostudy.backend.config.DataSeeder
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[30,9] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.wheretostudy.backend.config.DataSeeder
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[35,49] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.User
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[43,50] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.User
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[55,46] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[64,41] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[78,46] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[87,41] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[101,46] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[110,41] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[124,46] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[133,41] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[147,46] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[156,41] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[169,37] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[177,37] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[185,37] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[194,37] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[203,37] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[212,37] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[220,37] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/config/DataSeeder.java:[229,9] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.wheretostudy.backend.config.DataSeeder
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[46,36] cannot find symbol
+[ERROR]   symbol:   method getReviews()
+[ERROR]   location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[48,45] invalid method reference
+[ERROR]   cannot find symbol
+[ERROR]     symbol:   method getStarRating(T)
+[ERROR]     location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[51,23] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.dto.CafeDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[52,25] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[53,27] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[54,31] cannot find symbol
+[ERROR]   symbol:   method getLatitude()
+[ERROR]   location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[55,32] cannot find symbol
+[ERROR]   symbol:   method getLongitude()
+[ERROR]   location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[56,30] cannot find symbol
+[ERROR]   symbol:   method getAddress()
+[ERROR]   location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[57,34] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[58,45] cannot find symbol
+[ERROR]   symbol:   method getFacility()
+[ERROR]   location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[65,36] cannot find symbol
+[ERROR]   symbol:   method getReviews()
+[ERROR]   location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[67,45] invalid method reference
+[ERROR]   cannot find symbol
+[ERROR]     symbol:   method getStarRating(T)
+[ERROR]     location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[74,29] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.dto.CafeDetailDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[75,25] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[76,27] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[77,31] cannot find symbol
+[ERROR]   symbol:   method getLatitude()
+[ERROR]   location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[78,32] cannot find symbol
+[ERROR]   symbol:   method getLongitude()
+[ERROR]   location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[79,30] cannot find symbol
+[ERROR]   symbol:   method getAddress()
+[ERROR]   location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[80,34] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[81,45] cannot find symbol
+[ERROR]   symbol:   method getFacility()
+[ERROR]   location: variable cafe of type com.wheretostudy.backend.model.Cafe
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[91,27] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.dto.FacilityDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[92,38] cannot find symbol
+[ERROR]   symbol:   method getWifiQuality()
+[ERROR]   location: variable facility of type com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[93,39] cannot find symbol
+[ERROR]   symbol:   method getPowerOutlets()
+[ERROR]   location: variable facility of type com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[94,36] cannot find symbol
+[ERROR]   symbol:   method getQuietArea()
+[ERROR]   location: variable facility of type com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[95,37] cannot find symbol
+[ERROR]   symbol:   method getTableSpace()
+[ERROR]   location: variable facility of type com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[96,40] cannot find symbol
+[ERROR]   symbol:   method getGroupFriendly()
+[ERROR]   location: variable facility of type com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[97,40] cannot find symbol
+[ERROR]   symbol:   method getVoiceMeetings()
+[ERROR]   location: variable facility of type com.wheretostudy.backend.model.Facility
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[102,25] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.dto.ReviewDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[103,27] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[104,31] cannot find symbol
+[ERROR]   symbol:   method getCafe()
+[ERROR]   location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[105,33] cannot find symbol
+[ERROR]   symbol:   method getUser()
+[ERROR]   location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[106,35] cannot find symbol
+[ERROR]   symbol:   method getStarRating()
+[ERROR]   location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[107,32] cannot find symbol
+[ERROR]   symbol:   method getComment()
+[ERROR]   location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[108,33] cannot find symbol
+[ERROR]   symbol:   method getPhotoUrl()
+[ERROR]   location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/CafeService.java:[109,34] cannot find symbol
+[ERROR]   symbol:   method getCreatedAt()
+[ERROR]   location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[34,48] cannot find symbol
+[ERROR]   symbol:   method getUserId()
+[ERROR]   location: variable dto of type com.wheretostudy.backend.dto.CreateReviewDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[35,89] cannot find symbol
+[ERROR]   symbol:   method getUserId()
+[ERROR]   location: variable dto of type com.wheretostudy.backend.dto.CreateReviewDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[36,48] cannot find symbol
+[ERROR]   symbol:   method getCafeId()
+[ERROR]   location: variable dto of type com.wheretostudy.backend.dto.CreateReviewDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[37,89] cannot find symbol
+[ERROR]   symbol:   method getCafeId()
+[ERROR]   location: variable dto of type com.wheretostudy.backend.dto.CreateReviewDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[39,31] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[42,32] cannot find symbol
+[ERROR]   symbol:   method getStarRating()
+[ERROR]   location: variable dto of type com.wheretostudy.backend.dto.CreateReviewDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[43,29] cannot find symbol
+[ERROR]   symbol:   method getComment()
+[ERROR]   location: variable dto of type com.wheretostudy.backend.dto.CreateReviewDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[44,30] cannot find symbol
+[ERROR]   symbol:   method getPhotoUrl()
+[ERROR]   location: variable dto of type com.wheretostudy.backend.dto.CreateReviewDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[52,25] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.wheretostudy.backend.dto.ReviewDTO
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[53,27] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[54,31] cannot find symbol
+[ERROR]   symbol:   method getCafe()
+[ERROR]   location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[55,33] cannot find symbol
+[ERROR]   symbol:   method getUser()
+[ERROR]   location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[56,35] cannot find symbol
+[ERROR]   symbol:   method getStarRating()
+[ERROR]   location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[57,32] cannot find symbol
+[ERROR]   symbol:   method getComment()
+[ERROR]   location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[58,33] cannot find symbol
+[ERROR]   symbol:   method getPhotoUrl()
+[ERROR]   location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] /C:/Users/Behzat/Desktop/software/backend/src/main/java/com/wheretostudy/backend/service/ReviewService.java:[59,34] cannot find symbol
+[ERROR]   symbol:   method getCreatedAt()
+[ERROR]   location: variable review of type com.wheretostudy.backend.model.Review
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
