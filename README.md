@@ -580,12 +580,6 @@ const api = axios.create({
 
 ---
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
 <p align="center">
   Made with ☕ by <strong>Behzat Medeni</strong> — for students who need the perfect study spot.
 </p>
