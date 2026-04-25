@@ -18,25 +18,6 @@
 
 ---
 
-## 📸 Screenshots
-
-### 🗺️ Interactive Map Interface (Frontend)
-> React + Leaflet map with a glassmorphism sidebar, real-time filtering, and cafe markers.
-
-![Frontend Map Interface](docs/screenshots/frontend_map.png)
-
-### 🔌 REST API Response (Backend)
-> JSON response from the Spring Boot API endpoint `GET /api/cafes` with full cafe data and facility details.
-
-![Backend API Response](docs/screenshots/backend_api.png)
-
-### 🗄️ PostgreSQL Database — Cafes Table
-> The `cafes` table in the `wheretostudy` database showing all registered study spots.
-
-![PostgreSQL Database Table](docs/screenshots/database_table.png)
-
----
-
 ## ✨ Features
 
 | Feature | Description |
