@@ -1,10 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../context/AuthContext';
 import FilterPill from './FilterPill';
 import CafeCard from './CafeCard';
 import CafeDetailsPanel from './CafeDetailsPanel';
-import { Wifi, Plug, VolumeX, Coffee } from 'lucide-react';
+import { Wifi, Plug, VolumeX, Coffee, User } from 'lucide-react';
 
 const Sidebar = ({ cafes, filters, onFilterChange, selectedCafeId, onSelectCafe }) => {
+    const navigate = useNavigate();
+    const { isAuthenticated, user } = useAuth();
+
     return (
         <div
             className="glass-panel"
@@ -28,14 +33,39 @@ const Sidebar = ({ cafes, filters, onFilterChange, selectedCafeId, onSelectCafe 
             ) : (
                 <>
                     {/* Header */}
-                    <div style={{ padding: '24px 24px 16px 24px', borderBottom: '1px solid var(--panel-border)' }}>
-                        <h1 className="text-gradient" style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '1.8rem', margin: '0 0 8px 0' }}>
-                            <Coffee size={28} color="var(--accent-purple)" />
-                            WHERE TO STUDY
-                        </h1>
-                        <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', margin: 0 }}>
-                            Find your perfect productive spot.
-                        </p>
+                    <div style={{ padding: '24px 24px 16px 24px', borderBottom: '1px solid var(--panel-border)', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+                        <div>
+                            <h1 className="text-gradient" style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '1.8rem', margin: '0 0 8px 0' }}>
+                                <Coffee size={28} color="var(--accent-purple)" />
+                                WHERE TO STUDY
+                            </h1>
+                            <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', margin: 0 }}>
+                                Find your perfect productive spot.
+                            </p>
+                        </div>
+                        {isAuthenticated ? (
+                            <button 
+                                onClick={() => navigate('/profile')}
+                                style={{
+                                    background: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.2)', 
+                                    color: 'white', padding: '6px 12px', borderRadius: '8px', cursor: 'pointer',
+                                    display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.8rem', transition: 'all 0.2s'
+                                }}
+                            >
+                                <User size={14} /> Profile
+                            </button>
+                        ) : (
+                            <button 
+                                onClick={() => navigate('/login')}
+                                style={{
+                                    background: 'var(--accent-blue)', border: 'none', 
+                                    color: 'white', padding: '6px 12px', borderRadius: '8px', cursor: 'pointer',
+                                    fontSize: '0.8rem', fontWeight: '500', transition: 'all 0.2s'
+                                }}
+                            >
+                                Log In
+                            </button>
+                        )}
                     </div>
 
                     {/* Filters */}

@@ -10,4 +10,5 @@ import java.util.UUID;
 @Repository
 public interface ReviewRepository extends JpaRepository<Review, UUID> {
     List<Review> findByCafeIdOrderByCreatedAtDesc(UUID cafeId);
+    List<Review> findByUserIdOrderByCreatedAtDesc(UUID userId);
 }

@@ -10,10 +10,7 @@ const ReviewForm = ({ onSubmit, isSubmitting }) => {
         e.preventDefault();
         if (rating === 0 || !comment.trim()) return;
 
-        // Pass fake user ID for now since we don't have auth
-        // In a real app we'd get this from UserContext
         onSubmit({
-            userId: '11111111-1111-1111-1111-111111111111',
             starRating: rating,
             comment: comment
         });

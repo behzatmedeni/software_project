@@ -4,7 +4,13 @@ import { ArrowLeft, MapPin, Star, Wifi, Plug, VolumeX, Users, PhoneCall, Maximiz
 import ReviewList from './ReviewList';
 import ReviewForm from './ReviewForm';
 
+import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../context/AuthContext';
+
 const CafeDetailsPanel = ({ cafeId, onBack }) => {
+    const { isAuthenticated, user } = useAuth();
+    const navigate = useNavigate();
+
     const [cafeDetails, setCafeDetails] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -27,7 +33,7 @@ const CafeDetailsPanel = ({ cafeId, onBack }) => {
     const handleReviewSubmit = async (reviewData) => {
         setIsSubmitting(true);
         try {
-            const payload = { ...reviewData, cafeId };
+            const payload = { ...reviewData, cafeId, userId: user.id };
             const newReview = await createReview(payload);
 
             // Update local state to show new review instantly
@@ -51,7 +57,7 @@ const CafeDetailsPanel = ({ cafeId, onBack }) => {
     }
 
     if (!cafeDetails) {
-        return <div style={{ padding: '40px 24px', textAlign: 'center', color: '#ef4444' }}>Cafe found.</div>;
+        return <div style={{ padding: '40px 24px', textAlign: 'center', color: '#ef4444' }}>Cafe not found.</div>;
     }
 
     const f = cafeDetails.facilities || {};
@@ -145,7 +151,25 @@ const CafeDetailsPanel = ({ cafeId, onBack }) => {
                 <div>
                     <h4 style={{ fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '1px', color: 'var(--text-secondary)', marginBottom: '12px' }}>Reviews</h4>
                     <ReviewList reviews={cafeDetails.reviews} />
-                    <ReviewForm onSubmit={handleReviewSubmit} isSubmitting={isSubmitting} />
+                    {isAuthenticated ? (
+                        <ReviewForm onSubmit={handleReviewSubmit} isSubmitting={isSubmitting} />
+                    ) : (
+                        <div style={{ marginTop: '20px', background: 'rgba(0,0,0,0.2)', padding: '24px', borderRadius: '12px', textAlign: 'center' }}>
+                            <p style={{ margin: '0 0 16px 0', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
+                                You must be logged in to leave a review.
+                            </p>
+                            <button
+                                onClick={() => navigate('/login')}
+                                style={{
+                                    background: 'var(--accent-blue)', color: 'white', border: 'none',
+                                    padding: '8px 16px', borderRadius: '8px', cursor: 'pointer',
+                                    fontSize: '0.9rem', fontWeight: '500'
+                                }}
+                            >
+                                Log In to Review
+                            </button>
+                        </div>
+                    )}
                 </div>
             </div>
         </div>

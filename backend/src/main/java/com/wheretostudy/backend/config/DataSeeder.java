@@ -22,6 +22,11 @@ public class DataSeeder implements CommandLineRunner {
 
         @Override
         public void run(String... args) {
+                if (userRepository.count() > 0 || cafeRepository.count() > 0) {
+                        log.info("Database already contains data. Skipping seeding.");
+                        return;
+                }
+
                 log.info("Checking existing data...");
                 reviewRepository.deleteAll();
                 facilityRepository.deleteAll();

@@ -50,6 +50,12 @@
             <version>2.8.5</version>
         </dependency>
 
+        <!-- Spring Security (for BCrypt password encoding) -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
         <!-- Lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>

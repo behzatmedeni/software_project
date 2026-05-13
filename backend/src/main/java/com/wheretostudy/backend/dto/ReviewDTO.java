@@ -13,6 +13,7 @@ import java.util.UUID;
 public class ReviewDTO {
     private UUID id;
     private UUID cafeId;
+    private String cafeName;
     private String userName;
     private Integer starRating;
     private String comment;

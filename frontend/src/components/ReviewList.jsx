@@ -16,7 +16,16 @@ const ReviewList = ({ reviews }) => {
                     padding: '12px'
                 }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
-                        <span style={{ fontSize: '0.85rem', fontWeight: '500', color: '#fff' }}>User</span>
+                        <div>
+                            <span style={{ fontSize: '0.85rem', fontWeight: '500', color: '#fff' }}>
+                                {review.userName || 'User'}
+                            </span>
+                            {review.cafeName && (
+                                <span style={{ fontSize: '0.75rem', color: 'var(--accent-blue)', marginLeft: '8px' }}>
+                                    @ {review.cafeName}
+                                </span>
+                            )}
+                        </div>
                         <span style={{ display: 'flex', gap: '2px' }}>
                             {[...Array(5)].map((_, i) => (
                                 <Star key={i} size={12} fill={i < review.starRating ? "#f59e0b" : "transparent"} color={i < review.starRating ? "#f59e0b" : "var(--text-secondary)"} />

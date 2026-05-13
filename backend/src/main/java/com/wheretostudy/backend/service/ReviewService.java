@@ -30,11 +30,16 @@ public class ReviewService {
                                 .collect(Collectors.toList());
         }
 
+        public List<ReviewDTO> getReviewsByUserId(UUID userId) {
+                return reviewRepository.findByUserIdOrderByCreatedAtDesc(userId)
+                                .stream()
+                                .map(this::toReviewDTO)
+                                .collect(Collectors.toList());
+        }
+
         public ReviewDTO createReview(CreateReviewDTO dto) {
                 User user = userRepository.findById(dto.getUserId())
-                                .orElseGet(() -> userRepository.findAll().stream().findFirst()
-                                                .orElseThrow(() -> new RuntimeException(
-                                                                "No users available in the system")));
+                                .orElseThrow(() -> new RuntimeException("User not found with id: " + dto.getUserId()));
                 Cafe cafe = cafeRepository.findById(dto.getCafeId())
                                 .orElseThrow(() -> new RuntimeException("Cafe not found with id: " + dto.getCafeId()));
 
@@ -54,6 +59,7 @@ public class ReviewService {
                 return ReviewDTO.builder()
                                 .id(review.getId())
                                 .cafeId(review.getCafe().getId())
+                                .cafeName(review.getCafe().getName())
                                 .userName(review.getUser().getName())
                                 .starRating(review.getStarRating())
                                 .comment(review.getComment())
